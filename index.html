@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body onload="setMediumLevel()">
+    <h1>MINESWEEPER</h1>
+    <div class="main-container">
+        
+        <div class="hint-popup hidden"></div>
+        <div class="menu-container">
+                <span class="flags-counter"></span>
+            <button class="restart-button" onclick="init()"></button>
+            <span class="timer"><span class="last-number">0</span><span class="middle-number">0</span><span class="first-number">0</span></span>
+
+            <div class="levels-container">
+                <button class="beginner-button" onclick="setBeginnerLevel()">Beginner</button>
+                <button class="medium-button" onclick="setMediumLevel()">Medium</button>
+                <button class="expert-button" onclick="setExpertLevel()">Expert</button>
+            </div>
+            <div class="best-score">Best Score: 0</div>
+            <div class="hints"></div>
+            
+        </div>
+
+        <table class="cells-container">
+            <tbody class="cells">
+            </tbody>
+        </table>
+    </div>
+    <script src="js\utils.js"></script>
+    <script src="js\game.js"></script>
+</body>
+
+</html>

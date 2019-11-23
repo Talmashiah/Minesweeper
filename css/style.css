@@ -1,0 +1,149 @@
+body{
+   background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: black;
+    font-size: 65px;
+    text-align: center;
+    margin: 0;
+    margin: auto;
+    width: 918px;
+    font-family: cursive;
+}
+
+.best-score{
+    font-size: 26px;
+    font-family: cursive;
+}
+
+
+.restart-button{
+    width: 75px;
+    height: 75px;
+    font-size: 42px;
+    margin: 10px;
+    border: solid 3px black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.levels-container button {
+    background-color: whitesmoke;
+    font-size: 15px;
+    margin-right: 0px;
+    width: 97px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.timer, .flags-counter{
+    font-size: 35px;
+    border: solid 3px black;
+    padding: 6px;
+    background-color: rgb(170, 38, 38);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    width: 65px;
+}
+
+.hint-popup{
+    position: absolute;
+    background-color: rgb(245, 245, 220);
+    width: 150px;
+    height: 150px;
+    border-radius: 3%;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    border: dashed;
+    top: 21px;
+    font-family: cursive;
+    padding: 10px;
+    left: 55px;
+}
+
+.menu-container{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 900px;
+}
+
+.main-container{
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.cells-container{
+    position: relative;
+    margin: auto;
+    top: 14px;
+
+}
+
+table{
+    border-spacing: 0px;
+    border: inset 3px white;
+}
+
+td{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(184, 184, 184);
+    border: outset 3px white;
+    font-size: 27px;
+    text-align: center;
+    cursor: pointer;
+    font-family: fantasy;
+} 
+
+.show {
+    background-color: rgba(255, 255, 255, 0.904);
+    border: outset 1px white;
+    cursor: default;
+}
+
+.hints{
+    text-align: center;
+    font-size: 33px;
+    height: 33px;
+}
+
+.hint1, .hint2, .hint3{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.number1 {
+    color: blue;
+}
+
+.number2 {
+    color: green;
+}
+
+.number3 {
+    color: red;
+}
+
+.number4 {
+    color: purple;
+}
+
+.number5 {
+    color: darkgoldenrod;
+}
+
+.number6 {
+    color: darkblue;
+}
+
+.number7 {
+    color: brown;
+}
